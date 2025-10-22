@@ -29,6 +29,18 @@
 }
 
 @media (max-width: 400px) {
+    .footer-icons img{
+        width: 25px;
+    }
+
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 300px) {
     .footer-icons{
         display: block;
         text-align: center;
@@ -43,6 +55,7 @@
         display: block;
         text-align: center;
     }
+
     .footer ul li{
         margin-bottom: 0.9%;
     }

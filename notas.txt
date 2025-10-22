@@ -217,7 +217,7 @@ npm uninstall @angular/cli@18.2.0
 
 
 
-backend
+backend------
 
 ####nest
 
@@ -249,10 +249,120 @@ nest generate co hello --no-spec
 nest g resource payments
 
 #firebase
+
+
 https://developer.themoviedb.org/docs/image-basics
 
 npm install firebase react-firebase-hooks
 
+firebase hosting ------------------
+
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+(node:82601) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/macbookf/proyectos/react/netflix_clone/frontend
+
+? Which Firebase features do you want to set up for this directory? Press Space to select features,
+ then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally)
+ set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add, 
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: netflix-clone-36d36 (netflix-clone)
+i  Using project netflix-clone-36d36 (netflix-clone)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? dist
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
+✔  Wrote dist/404.html
+? File dist/index.html already exists. Overwrite? No
+i  Skipping write of dist/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
+✔  Firebase initialization complete!
+
+
+firebase deploy
+
+firebase deploy
+(node:84200) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+=== Deploying to 'netflix-clone-36d36'...
+
+i  deploying hosting
+i  hosting[netflix-clone-36d36]: beginning deploy...
+i  hosting[netflix-clone-36d36]: found 24 files in dist
+✔  hosting[netflix-clone-36d36]: file upload complete
+i  hosting[netflix-clone-36d36]: finalizing version...
+✔  hosting[netflix-clone-36d36]: version finalized
+i  hosting[netflix-clone-36d36]: releasing new version...
+✔  hosting[netflix-clone-36d36]: release complete
+
+✔  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/netflix-clone-36d36/overview
+Hosting URL: https://netflix-clone-36d36.web.app
+
+-----------------------
+
 npm i react-toastify
 
 npm i --save class-validator class-transformer
+
+npm install cypress --save-dev
+
+
+lsof -i tcp:3000
+kill -9 pid
+
+cypress-----
+
+npx cypress open 
+
+
+k6----------
+//tutorial
+//para ejecutar normalmente
+//k6 run file.js
+//para saber el comando que esatamos ejecutando pero no sabemos los parametros
+//k6 run --help
+//para ejecutar la prueba con 10 usuarios y la duracion de 30 segundos
+//k6 run file.js --vus 10 --duration 30s
+//ejecutar 3 veces un script
+//k6 run file.js -i 3
+//para guardar los resultados en un json
+//k6 run file.js \
+//--out json=test.json
+
+
+readme--------
+permite visualizar el readme
+control + shift + v

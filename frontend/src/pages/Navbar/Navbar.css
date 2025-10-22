@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 .navbar .dropdown{
-    position:absolute;
+    position:unset;
     top: -0.3;
     right: 5%;
     width: max-content;
@@ -86,19 +86,26 @@
     background: #141414;
 }
 
+@media (max-width: 800px) {
+    .navbar img{
+        height: 20px;
+    } 
 
-@media (max-width: 980px) {
-    
+    .navbar-right{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 800px) {
     .navbar{
-        display: block;
-
+        padding: 20px 4%;
     }
 
-    .navbar-init{
-        margin-bottom: 3%;
+    .navbar-left ul{
+        display: none;
     }
-
-    .navbar-left{
-        margin-bottom: 3%;
+    
+    .navbar img{
+        height: 25px;
     }
 }
