@@ -29,6 +29,9 @@ Muy brevemente sobre lo que se realiza en cada una
 *[node](https://nodejs.org/en/download/package-manager)
 React en el frontend y firebase para el backend en el servidor.
 
+*[firebase](https://firebase.google.com/?hl=es-419)
+plataforma de servicios en internet
+
 *[api movie](https://www.themoviedb.org/)
 Api de peliculas de donde se saca las categorias de peliculas o series
 
@@ -43,7 +46,7 @@ imagen de representacion de la app y herramientas de VScode
 ## Sitio Web
 https://netflix-clone-36d36.web.app
 
-## Demostracion de app
+## Demostracion de la App
 
 link: https://www.youtube.com/watch?v=YOUNPUdeYTc
 
